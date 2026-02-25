@@ -16,7 +16,7 @@ public class Exception4 {
             System.out.println("Please enter a valid integer.");
         }
 
-        System.out.println("Program finished safely.");
-        sc.close();
+        System.out.println("Program finished.");
+      
     }
 }
