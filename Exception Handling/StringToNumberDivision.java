@@ -10,10 +10,10 @@ public class StringToNumberDivision {
             System.out.print("Enter second value (as string): ");
             String s2 = sc.next();
 
-            int a = Integer.parseInt(s1);   // may throw NumberFormatException
+            int a = Integer.parseInt(s1);  
             int b = Integer.parseInt(s2);
 
-            int result = a / b;             // may throw ArithmeticException
+            int result = a / b;             
             System.out.println("Result: " + result);
 
         } catch (NumberFormatException e) {
