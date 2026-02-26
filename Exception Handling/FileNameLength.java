@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class FileNameLength {
     public static void main(String[] args) {
+        
         try {
             Scanner input = new Scanner(System.in);
             String name;
@@ -12,8 +13,6 @@ public class FileNameLength {
             int index =input.nextInt();
 
             char ch = name.charAt(index);
-
-        
 
             int num =Integer.parseInt(name);
             System.out.println("double value :"+num*2);
