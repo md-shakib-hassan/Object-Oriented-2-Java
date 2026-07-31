@@ -7,6 +7,7 @@ public class Exercise2 {
             FileWriter file = new FileWriter("text.txt",true);
            
             file.write("\nCourse name: Object Oriented Concept-II");
+            file.write("\nhello good night");
 
             System.out.println("succesfully write in file.");
 
