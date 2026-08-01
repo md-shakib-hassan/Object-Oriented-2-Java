@@ -23,7 +23,7 @@ public class Division_Array_Access {
             int index = input.nextInt();
 
             arr[index] = result;
-            int divison = result/0;
+            // int divison = result/0;
             System.out.println("divison successful.");
 
         } catch (ArithmeticException e) {

@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class FileSimulation {
     public static void main(String[] args) {
+       
         Scanner input = new Scanner(System.in);
 
         String lines[] = { "10", "20", "abc", "40", "50" };
